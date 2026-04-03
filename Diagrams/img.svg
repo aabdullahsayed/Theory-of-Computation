@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.1"/>
+    </filter>
+    <filter id="light-shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.05"/>
+    </filter>
+    
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#3b82f6" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" />
+    </marker>
+    <marker id="arrow-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155" />
+    </marker>
+  </defs>
+
+  <rect width="1000" height="680" fill="#f8fafc" />
+
+  <text x="500" y="45" font-family="system-ui, sans-serif" font-size="26" font-weight="800" text-anchor="middle" fill="#1e293b" letter-spacing="1">COMPUTATIONAL SYSTEMS &amp; MODELS</text>
+  <line x1="380" y1="60" x2="620" y2="60" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="40" y="100" width="420" height="540" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="40" y="100" width="420" height="40" rx="12" fill="#e2e8f0"/>
+  <rect x="40" y="120" width="420" height="20" fill="#e2e8f0"/>
+  <text x="250" y="126" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#334155" letter-spacing="0.5">3. COMPLETE COMPUTING SYSTEM</text>
+
+  <rect x="60" y="160" width="380" height="320" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#light-shadow)"/>
+  <text x="250" y="190" font-family="system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#475569">2. BASIC COMPUTING SYSTEM</text>
+  <line x1="80" y1="205" x2="420" y2="205" stroke="#e2e8f0" stroke-width="2"/>
+
+  <rect x="80" y="230" width="160" height="220" rx="6" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+  <text x="160" y="260" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1d4ed8">1. MICROPROCESSOR</text>
+  <text x="160" y="278" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle" fill="#2563eb">(MPU)</text>
+  
+  <rect x="95" y="300" width="130" height="35" rx="4" fill="#ffffff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="160" y="322" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#334155">Control Unit (CU)</text>
+  
+  <rect x="95" y="345" width="130" height="35" rx="4" fill="#ffffff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="160" y="367" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#334155">ALU</text>
+  
+  <rect x="95" y="390" width="130" height="35" rx="4" fill="#ffffff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="160" y="412" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#334155">Temporary Storage</text>
+
+  <rect x="280" y="230" width="140" height="220" rx="6" fill="#f0fdf4" stroke="#4ade80" stroke-width="2"/>
+  <text x="350" y="325" font-family="system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#15803d">SYSTEM MEMORY</text>
+  <text x="350" y="345" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#16a34a">(RAM)</text>
+  <text x="350" y="375" font-family="system-ui, sans-serif" font-size="12" font-style="italic" text-anchor="middle" fill="#22c55e">Read &amp; Write Data</text>
+
+  <path d="M 245 300 L 275 300" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#arrow-dark)" marker-start="url(#arrow-dark)"/>
+  <path d="M 245 380 L 275 380" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#arrow-dark)" marker-start="url(#arrow-dark)"/>
+
+  <rect x="60" y="520" width="380" height="90" rx="6" fill="#fefce8" stroke="#facc15" stroke-width="2"/>
+  <text x="250" y="560" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#a16207">I/O DEVICES</text>
+  <text x="250" y="580" font-family="system-ui, sans-serif" font-size="13" font-style="italic" text-anchor="middle" fill="#ca8a04">(Interaction with the External World)</text>
+
+  <path d="M 250 485 L 250 515" fill="none" stroke="#334155" stroke-width="3" marker-end="url(#arrow-dark)" marker-start="url(#arrow-dark)"/>
+
+
+  <path d="M 520 440 L 520 120" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+  <g transform="translate(500, 410) rotate(-90)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#2563eb" letter-spacing="1.5">INCREASING COMPUTATIONAL POWER</text>
+  </g>
+
+  <rect x="560" y="100" width="390" height="90" rx="8" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2" filter="url(#shadow)"/>
+  <text x="580" y="135" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#0369a1">3. TURING MACHINE</text>
+  <text x="580" y="160" font-family="system-ui, sans-serif" font-size="14" fill="#0284c7"><tspan font-weight="600">Universal Model:</tspan> Infinite memory tape.</text>
+  <text x="580" y="178" font-family="system-ui, sans-serif" font-size="13" font-style="italic" fill="#075985">Can carry out *any* computable algorithm.</text>
+
+  <rect x="560" y="215" width="390" height="90" rx="8" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" filter="url(#shadow)"/>
+  <text x="580" y="250" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#334155">2. PUSHDOWN AUTOMATON</text>
+  <text x="580" y="275" font-family="system-ui, sans-serif" font-size="14" fill="#475569"><tspan font-weight="600">Intermediate Model:</tspan> Adds a "Stack" memory.</text>
+  <text x="580" y="293" font-family="system-ui, sans-serif" font-size="13" font-style="italic" fill="#64748b">Can process nested or recursive patterns.</text>
+
+  <rect x="560" y="330" width="390" height="90" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" filter="url(#shadow)"/>
+  <text x="580" y="365" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#64748b">1. FINITE AUTOMATON</text>
+  <text x="580" y="390" font-family="system-ui, sans-serif" font-size="14" fill="#64748b"><tspan font-weight="600">Simplest Model:</tspan> Only fixed internal states.</text>
+  <text x="580" y="408" font-family="system-ui, sans-serif" font-size="13" font-style="italic" fill="#94a3b8">No external or temporary memory.</text>
+
+
+  <rect x="520" y="460" width="430" height="180" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" filter="url(#shadow)"/>
+  <text x="735" y="490" font-family="system-ui, sans-serif" font-size="14" font-weight="800" text-anchor="middle" fill="#334155" letter-spacing="1">STATE MACHINE NOTATION (KEY)</text>
+  <line x1="540" y1="500" x2="930" y2="500" stroke="#f1f5f9" stroke-width="2"/>
+
+  <g transform="translate(540, 520)">
+    <path d="M 0 20 L 35 20" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow-dark)"/>
+    <circle cx="65" cy="20" r="20" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <text x="95" y="25" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#334155">Start State</text>
+    <text x="95" y="40" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Arrow from nowhere</text>
+  </g>
+
+  <g transform="translate(540, 580)">
+    <path d="M 0 20 L 35 20" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow-dark)"/>
+    <circle cx="65" cy="20" r="20" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+    <path d="M 85 20 L 120 20" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow-dark)"/>
+    <text x="130" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#334155">Intermediate</text>
+    <text x="130" y="35" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Arrows in &amp; out</text>
+  </g>
+
+  <g transform="translate(740, 520)">
+    <path d="M 0 20 L 35 20" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#arrow-dark)"/>
+    <circle cx="65" cy="20" r="22" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="65" cy="20" r="16" fill="none" stroke="#16a34a" stroke-width="2"/>
+    <text x="95" y="25" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#15803d">Accept State</text>
+    <text x="95" y="40" font-family="system-ui, sans-serif" font-size="11" fill="#22c55e">Double circle (Success)</text>
+  </g>
+
+  <g transform="translate(740, 580)">
+    <path d="M 0 20 L 35 20" fill="none" stroke="#ef4444" stroke-width="2" marker-end="url(#arrow-dark)"/>
+    <circle cx="65" cy="20" r="20" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+    <path d="M 90 12 L 105 28 M 105 12 L 90 28" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+    <text x="115" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#b91c1c">Reject State</text>
+    <text x="115" y="35" font-family="system-ui, sans-serif" font-size="11" fill="#ef4444">No outgoing arrows</text>
+  </g>
+
+</svg>
